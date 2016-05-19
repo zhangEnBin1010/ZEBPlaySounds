@@ -1,0 +1,11 @@
+# ZEBPlaySounds
+TTS技术的实现即语音播报
+原文：http://www.cnblogs.com/asd5551680/p/4180556.html
+
+在iOS7之前，想要实现语音播报文字内容，可能需要第三方资源库来实现。现在在iOS7上，系统为我们提供了语音播报文字的功能，我们不仅可以播报英语内容，也可以播报汉语文字
+实现TTS主要依赖AVSpeechSynthesizer，AVSpeechUtterance,AVSpeechSynthesisVoice,要使用这些类必须先加入
+AVFoundation框架：
+AVSpeechSynthesisVoice：用来配置发音,支持的发音非常多.个人感觉台湾发音最好听~通过调用
+[AVSpeechSynthesisVoicespeechVoices]类方法可用看到支持的发音种类;
+AVSpeechUtterance：这个类就是用来将字符串合成为语音对象提供给AVSpeechSynthesizer来播放,这个类还有一些
+实例方法用来控制语速，音调等等。。
