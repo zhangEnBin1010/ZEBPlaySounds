@@ -7,6 +7,7 @@
 //
 
 #import "ZEBPlaySounds.h"
+#import <UIKit/UIDevice.h>
 
 static ZEBPlaySounds* soundplayer=nil;
 
@@ -26,6 +27,7 @@ static ZEBPlaySounds* soundplayer=nil;
  {
       if(![text isEqualToString:NULL])
            {
+               if( [[[UIDevice currentDevice] systemVersion] integerValue] >= 7.0) {
                   AVSpeechSynthesizer* player=[[AVSpeechSynthesizer alloc]init];
                   AVSpeechUtterance* u=[[AVSpeechUtterance alloc]initWithString:text];//设置要朗读的字符串
               u.voice=[AVSpeechSynthesisVoice voiceWithLanguage:@"zh-CN"];//设置语言
@@ -33,6 +35,7 @@ static ZEBPlaySounds* soundplayer=nil;
                   u.rate=self.rate;  //设置语速
                u.pitchMultiplier=self.pitchMultiplier;  //设置语调
                [player speakUtterance:u];
+               }
            }
  }
  //初始化配置
