@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1868C7B01CED4C3700739FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868C7AF1CED4C3700739FA6 /* main.m */; };
+		1868C7B31CED4C3700739FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868C7B21CED4C3700739FA6 /* AppDelegate.m */; };
+		1868C7B61CED4C3700739FA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868C7B51CED4C3700739FA6 /* ViewController.m */; };
+		1868C7B91CED4C3700739FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1868C7B71CED4C3700739FA6 /* Main.storyboard */; };
+		1868C7BB1CED4C3700739FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868C7BA1CED4C3700739FA6 /* Assets.xcassets */; };
+		1868C7BE1CED4C3700739FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1868C7BC1CED4C3700739FA6 /* LaunchScreen.storyboard */; };
+		1868C7C91CED4C3700739FA6 /* ZEBPlaySoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868C7C81CED4C3700739FA6 /* ZEBPlaySoundsTests.m */; };
+		1868C7D41CED4C3700739FA6 /* ZEBPlaySoundsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868C7D31CED4C3700739FA6 /* ZEBPlaySoundsUITests.m */; };
+		1868C7E71CED4E2300739FA6 /* ZEBPlaySounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868C7E61CED4E2300739FA6 /* ZEBPlaySounds.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1868C7C51CED4C3700739FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1868C7A31CED4C3700739FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1868C7AA1CED4C3700739FA6;
+			remoteInfo = ZEBPlaySounds;
+		};
+		1868C7D01CED4C3700739FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1868C7A31CED4C3700739FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1868C7AA1CED4C3700739FA6;
+			remoteInfo = ZEBPlaySounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1868C7AB1CED4C3700739FA6 /* ZEBPlaySounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZEBPlaySounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1868C7AF1CED4C3700739FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1868C7B11CED4C3700739FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1868C7B21CED4C3700739FA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1868C7B41CED4C3700739FA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1868C7B51CED4C3700739FA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1868C7B81CED4C3700739FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1868C7BA1CED4C3700739FA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1868C7BD1CED4C3700739FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1868C7BF1CED4C3700739FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868C7C41CED4C3700739FA6 /* ZEBPlaySoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEBPlaySoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1868C7C81CED4C3700739FA6 /* ZEBPlaySoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEBPlaySoundsTests.m; sourceTree = "<group>"; };
+		1868C7CA1CED4C3700739FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868C7CF1CED4C3700739FA6 /* ZEBPlaySoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZEBPlaySoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1868C7D31CED4C3700739FA6 /* ZEBPlaySoundsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEBPlaySoundsUITests.m; sourceTree = "<group>"; };
+		1868C7D51CED4C3700739FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868C7E51CED4E2300739FA6 /* ZEBPlaySounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEBPlaySounds.h; sourceTree = "<group>"; };
+		1868C7E61CED4E2300739FA6 /* ZEBPlaySounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEBPlaySounds.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1868C7A81CED4C3700739FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868C7C11CED4C3700739FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868C7CC1CED4C3700739FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1868C7A21CED4C3700739FA6 = {
+			isa = PBXGroup;
+			children = (
+				1868C7AD1CED4C3700739FA6 /* ZEBPlaySounds */,
+				1868C7C71CED4C3700739FA6 /* ZEBPlaySoundsTests */,
+				1868C7D21CED4C3700739FA6 /* ZEBPlaySoundsUITests */,
+				1868C7AC1CED4C3700739FA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1868C7AC1CED4C3700739FA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7AB1CED4C3700739FA6 /* ZEBPlaySounds.app */,
+				1868C7C41CED4C3700739FA6 /* ZEBPlaySoundsTests.xctest */,
+				1868C7CF1CED4C3700739FA6 /* ZEBPlaySoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1868C7AD1CED4C3700739FA6 /* ZEBPlaySounds */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7E41CED4E2300739FA6 /* ZEBSoundPlayer */,
+				1868C7B11CED4C3700739FA6 /* AppDelegate.h */,
+				1868C7B21CED4C3700739FA6 /* AppDelegate.m */,
+				1868C7B41CED4C3700739FA6 /* ViewController.h */,
+				1868C7B51CED4C3700739FA6 /* ViewController.m */,
+				1868C7B71CED4C3700739FA6 /* Main.storyboard */,
+				1868C7BA1CED4C3700739FA6 /* Assets.xcassets */,
+				1868C7BC1CED4C3700739FA6 /* LaunchScreen.storyboard */,
+				1868C7BF1CED4C3700739FA6 /* Info.plist */,
+				1868C7AE1CED4C3700739FA6 /* Supporting Files */,
+			);
+			path = ZEBPlaySounds;
+			sourceTree = "<group>";
+		};
+		1868C7AE1CED4C3700739FA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7AF1CED4C3700739FA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1868C7C71CED4C3700739FA6 /* ZEBPlaySoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7C81CED4C3700739FA6 /* ZEBPlaySoundsTests.m */,
+				1868C7CA1CED4C3700739FA6 /* Info.plist */,
+			);
+			path = ZEBPlaySoundsTests;
+			sourceTree = "<group>";
+		};
+		1868C7D21CED4C3700739FA6 /* ZEBPlaySoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7D31CED4C3700739FA6 /* ZEBPlaySoundsUITests.m */,
+				1868C7D51CED4C3700739FA6 /* Info.plist */,
+			);
+			path = ZEBPlaySoundsUITests;
+			sourceTree = "<group>";
+		};
+		1868C7E41CED4E2300739FA6 /* ZEBSoundPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1868C7E51CED4E2300739FA6 /* ZEBPlaySounds.h */,
+				1868C7E61CED4E2300739FA6 /* ZEBPlaySounds.m */,
+			);
+			path = ZEBSoundPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1868C7AA1CED4C3700739FA6 /* ZEBPlaySounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868C7D81CED4C3700739FA6 /* Build configuration list for PBXNativeTarget "ZEBPlaySounds" */;
+			buildPhases = (
+				1868C7A71CED4C3700739FA6 /* Sources */,
+				1868C7A81CED4C3700739FA6 /* Frameworks */,
+				1868C7A91CED4C3700739FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZEBPlaySounds;
+			productName = ZEBPlaySounds;
+			productReference = 1868C7AB1CED4C3700739FA6 /* ZEBPlaySounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1868C7C31CED4C3700739FA6 /* ZEBPlaySoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868C7DB1CED4C3700739FA6 /* Build configuration list for PBXNativeTarget "ZEBPlaySoundsTests" */;
+			buildPhases = (
+				1868C7C01CED4C3700739FA6 /* Sources */,
+				1868C7C11CED4C3700739FA6 /* Frameworks */,
+				1868C7C21CED4C3700739FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1868C7C61CED4C3700739FA6 /* PBXTargetDependency */,
+			);
+			name = ZEBPlaySoundsTests;
+			productName = ZEBPlaySoundsTests;
+			productReference = 1868C7C41CED4C3700739FA6 /* ZEBPlaySoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1868C7CE1CED4C3700739FA6 /* ZEBPlaySoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1868C7DE1CED4C3700739FA6 /* Build configuration list for PBXNativeTarget "ZEBPlaySoundsUITests" */;
+			buildPhases = (
+				1868C7CB1CED4C3700739FA6 /* Sources */,
+				1868C7CC1CED4C3700739FA6 /* Frameworks */,
+				1868C7CD1CED4C3700739FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1868C7D11CED4C3700739FA6 /* PBXTargetDependency */,
+			);
+			name = ZEBPlaySoundsUITests;
+			productName = ZEBPlaySoundsUITests;
+			productReference = 1868C7CF1CED4C3700739FA6 /* ZEBPlaySoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1868C7A31CED4C3700739FA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1868C7AA1CED4C3700739FA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1868C7C31CED4C3700739FA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1868C7AA1CED4C3700739FA6;
+					};
+					1868C7CE1CED4C3700739FA6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1868C7AA1CED4C3700739FA6;
+					};
+				};
+			};
+			buildConfigurationList = 1868C7A61CED4C3700739FA6 /* Build configuration list for PBXProject "ZEBPlaySounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1868C7A21CED4C3700739FA6;
+			productRefGroup = 1868C7AC1CED4C3700739FA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1868C7AA1CED4C3700739FA6 /* ZEBPlaySounds */,
+				1868C7C31CED4C3700739FA6 /* ZEBPlaySoundsTests */,
+				1868C7CE1CED4C3700739FA6 /* ZEBPlaySoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1868C7A91CED4C3700739FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868C7BE1CED4C3700739FA6 /* LaunchScreen.storyboard in Resources */,
+				1868C7BB1CED4C3700739FA6 /* Assets.xcassets in Resources */,
+				1868C7B91CED4C3700739FA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868C7C21CED4C3700739FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868C7CD1CED4C3700739FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1868C7A71CED4C3700739FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868C7B61CED4C3700739FA6 /* ViewController.m in Sources */,
+				1868C7E71CED4E2300739FA6 /* ZEBPlaySounds.m in Sources */,
+				1868C7B31CED4C3700739FA6 /* AppDelegate.m in Sources */,
+				1868C7B01CED4C3700739FA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868C7C01CED4C3700739FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868C7C91CED4C3700739FA6 /* ZEBPlaySoundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1868C7CB1CED4C3700739FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1868C7D41CED4C3700739FA6 /* ZEBPlaySoundsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1868C7C61CED4C3700739FA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1868C7AA1CED4C3700739FA6 /* ZEBPlaySounds */;
+			targetProxy = 1868C7C51CED4C3700739FA6 /* PBXContainerItemProxy */;
+		};
+		1868C7D11CED4C3700739FA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1868C7AA1CED4C3700739FA6 /* ZEBPlaySounds */;
+			targetProxy = 1868C7D01CED4C3700739FA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1868C7B71CED4C3700739FA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1868C7B81CED4C3700739FA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1868C7BC1CED4C3700739FA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1868C7BD1CED4C3700739FA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1868C7D61CED4C3700739FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1868C7D71CED4C3700739FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1868C7D91CED4C3700739FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEBPlaySounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBPlaySounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1868C7DA1CED4C3700739FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZEBPlaySounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBPlaySounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1868C7DC1CED4C3700739FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEBPlaySoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBPlaySoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEBPlaySounds.app/ZEBPlaySounds";
+			};
+			name = Debug;
+		};
+		1868C7DD1CED4C3700739FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZEBPlaySoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBPlaySoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZEBPlaySounds.app/ZEBPlaySounds";
+			};
+			name = Release;
+		};
+		1868C7DF1CED4C3700739FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEBPlaySoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBPlaySoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEBPlaySounds;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1868C7E01CED4C3700739FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZEBPlaySoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeb.ZEBPlaySoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZEBPlaySounds;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1868C7A61CED4C3700739FA6 /* Build configuration list for PBXProject "ZEBPlaySounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868C7D61CED4C3700739FA6 /* Debug */,
+				1868C7D71CED4C3700739FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1868C7D81CED4C3700739FA6 /* Build configuration list for PBXNativeTarget "ZEBPlaySounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868C7D91CED4C3700739FA6 /* Debug */,
+				1868C7DA1CED4C3700739FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1868C7DB1CED4C3700739FA6 /* Build configuration list for PBXNativeTarget "ZEBPlaySoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868C7DC1CED4C3700739FA6 /* Debug */,
+				1868C7DD1CED4C3700739FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1868C7DE1CED4C3700739FA6 /* Build configuration list for PBXNativeTarget "ZEBPlaySoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1868C7DF1CED4C3700739FA6 /* Debug */,
+				1868C7E01CED4C3700739FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1868C7A31CED4C3700739FA6 /* Project object */;
+}
